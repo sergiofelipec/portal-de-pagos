@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body {}
+
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    color: #003d79;
+    font: 300 27px/28px 'Open Sans', sans-serif;
+    padding-top: 12px;
+    background: url(../img/filete.jpg) no-repeat top left;
+}
+
+h2 {
+    color: #003d79;
+    font: 700 15px/20px 'Open Sans', sans-serif;
+    padding-bottom: 8px;
+}
+
+h3 {}
+
+p, table {
+    font: 400 14px/21px 'Open Sans', sans-serif;
+    color: #343434;
+}
+
+table {
+    font-size: 12px;
+}
+
+tr {}
+
+th {}
+
+th, td {
+    padding: 10px 15px;
+}
+
+a {}
+
+.info {}
+
+.inicio-sesion {
+    border-top: 5px solid #003d79;
+}
+
+.inicio-sesion .info {
+    width: 300px;
+}
+
+a.logo {
+    display: block;
+    margin: 30px auto 25px;
+    text-align: center;
+}
+
+.caja-gris {
+    padding: 32px 30px;
+    border: 1px solid #ddd;
+    background: #ededed;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    border: 1px solid #ddd;
+    width: 90%;
+    padding: 9px 5%;
+    font: 400 14px/19px 'Open Sans', sans-serif;
+    color: #343434;
+}
+
+input[type=submit] {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    background: #931c17;
+    border-bottom: 2px solid #e21f1d;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.link-password-olvidado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px
+}
+
+.link-password-olvidado a {
+    text-align: center;
+    text-decoration: underline;
+    color: #931c17;
+    font: 400 12px/19px 'Open Sans', sans-serif;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 3px solid #003d79;
+    background: #eaeaea;
+}
+
+footer p {
+    padding: 35px 15px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 18px;
+    color: #777
+}
+
+.bienvenido {}
+
+header {
+    border-bottom: 5px solid #003d79;
+}
+
+header .wrapper {
+    padding: 18px 15px;
+}
+
+header a.logo {
+    display: block;
+    float: left;
+    width: 185px;
+    height: 43px;
+    margin: 0;
+}
+
+.menu {
+    float: right;
+    width: 230px;
+    padding-top: 15px;
+}
+
+.menu a {
+    display: block;
+    float: left;
+    font: 400 12px/18px 'Open Sans', sans-serif;
+    color: #343434;
+}
+
+.menu span {
+    display: block;
+    float: left;
+    margin: 2px 8px 0;
+    background: #931c17;
+    height: 13px;
+    width: 1px;
+}
+
+.menu a.btn-pagar {
+    margin-left: 20px;
+    color: #931c17;
+    font-weight: 800;
+}
+
+.mensaje-bienvenida {
+    padding: 35px 0 40px;
+    background: #e6e6e6;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.mensaje-bienvenida p {
+    padding-right: 80px;
+}
+
+.info {
+    margin-top: 40px;
+}
+
+.columna {
+    width: 238px;
+    float: left;
+    margin-right: 45px;
+}
+
+.last {
+    margin-right: 0 !important;
+}
+
+.columna h2 {
+    text-align: center;
+}
+
+.columna a {
+    color: #fff;
+    display: block;
+    padding: 12px 0;
+    font: 400 14px/19px 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: #003d79;
+    border-bottom: 2px solid #1d76ce;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bienvenido .last a {
+    color: #fff;
+    display: block;
+    padding: 12px 0;
+    font: 400 14px/19px 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: #931c17;
+    border-bottom: 2px solid #e21f1d;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pagar {}
+
+.breadcrumb {
+    padding: 10px 0;
+    background: #e6e6e6;
+}
+
+.breadcrumb p {
+    font: italic 400 12px/19px 'Open Sans', sans-serif;
+    color: #343434;
+}
+
+.breadcrumb p a {
+    color: #343434;
+}
+
+.breadcrumb p a:hover {
+    color: #931c17;
+}
+
+.titulo {
+    margin-bottom: 35px;
+}
+
+.titulo p {
+    padding-right: 80px;
+}
+
+.txt {}
+
+table {
+    margin-bottom: 25px;
+}
+table th {
+    background-color: #003d79;
+    color: white;
+}
+
+table tr:nth-child(odd) td {
+    background: #ededed;
+}
+
+p.forma-pago {
+    margin-left: 5px
+}
+
+p.condiciones {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 5px
+}
+
+p.condiciones input {
+    width: auto;
+    margin: 0;
+    padding: 0
+}
+
+p.condiciones a {
+    text-decoration: underline;
+    color: #931c17;
+}
+
+button.cta {
+    color: #fff;
+    display: block;
+    padding: 12px 0;
+    font: 400 14px/19px 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: #931c17;
+    border-bottom: 2px solid #e21f1d;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+a.cta {
+    color: #fff;
+    display: block;
+    padding: 12px 0;
+    font: 400 14px/19px 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: #931c17;
+    border-bottom: 2px solid #e21f1d;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+a.cta-azul {
+    background: #003d79;
+    border-bottom: 2px solid #1d76ce;
+}
+
+.mi-perfil .form {
+    width: 440px;
+    float: left;
+    margin-right: 40px;
+    border-right: 1px solid #ddd;
+    padding-right: 40px
+}
+
+.mi-perfil .form-cambiar-contrasena {
+    width: 280px;
+    padding: 0;
+    border: none
+}
+
+.cobros .form-cobro {
+    width: 500px
+}
+
+.form-cobro p {
+    margin-bottom: 13px
+}
+
+.cobros .form-cobro input[type=submit] {
+    width: 200px;
+    float: right
+}
+
+.consulta .form-consultar {
+    width: 100%
+}
+
+.buscar {
+    width: 500px;
+    margin-bottom: 25px
+}
+
+.buscar p input {
+    margin-top: 5px
+}
+
+.consulta table {
+    text-align: center
+}
+
+.consulta table th {
+    background: #003d79;
+    text-transform: uppercase
+}
+
+/* clearfix */
+
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.ui-autocomplete-loading {
+    background: white url("../img/ui-anim_basic_16x16.gif") right center no-repeat;
+  }
+
+/*.progress-bar.animate {
+   width: 100%;
+}*/
